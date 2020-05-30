@@ -3,34 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="las recetas de tu cocina">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <title>Cocina con Cata</title>
 </head>
 <body>
-    <h1>
-        Cocina con Cata
-    </h1>
-    <audio autoplay="false" muted controls>
+    <header class="encabezado">
+        <h1>Cocina con Cata</h1>
+    <!--<audio autoplay="false" muted controls>
         <source src="assets/audio/audio.mp3" type="audio/mp3">
-    </audio>
-    <a href="masas.html" target="_self"><h2>Masas</h2></a>
-    <p>
-        En esta seccìon encontraras<br>
-        recetas sobre como realizar<br>
-        una buenas masas.
-    </p>
-    <img src="https://www.johaprato.com/files/styles/flexslider_full/public/masa_de_pasta_fresca.jpg?itok=WAXd0YBz" alt="Ingredientes sobre la mesa para la preparacion de la masa">
-    <a href="pastas.html" target="_self"><h2>Pastas</h2></a>
-    <p>
-        En esta seccìon encontraras<br>
-        recetas sobre como ralizar<br>
-        platos de pastas.
-    </p>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBMwxTqorI9UL7xjD5MEbToxb1hI7johi8wYGe2YB2fVnWkPcd&usqp=CAU" width="800" height="400" alt="fuente de pasta con brocolis">
-    <a href="carnes.html" target="_self"><h2>Carnes</h2></a>
-    <p>
-        Vamos a realizar una carne<br>
-        asadas y al horno para deleitarse.
-    </p>
-    <img src="assets/image/carnes-1.jpg" alt="carne asada" width="800">
+    </audio>-->
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html" target="_self"><h2>Inicio</h2></a></li>
+                <li><a href="masas.html" target="_self"><h2>Masas</h2></a></li>
+                <li><a href="pastas.html" target="_self"><h2>Pastas</h2></a></li>
+                <li><a href="carnes.html" target="_self"><h2>Carnes</h2></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="bloque">
+            <div class="bloque1">
+                <h2>Masas</h2>
+                <p>
+                    En esta seccìon encontraras<br>
+                    recetas sobre como realizar<br>
+                    una buenas masas.
+                </p>
+                <img src="https://www.johaprato.com/files/styles/flexslider_full/public/masa_de_pasta_fresca.jpg?itok=WAXd0YBz" alt="Ingredientes sobre la mesa para la preparacion de la masa" class="img">
+                <button class="boton"><a href="masas.html" class="enlace">Continuar</a></button>
+            </div>
+            <div class="bloque2">
+                <h2>Pastas</h2>
+                <p>
+                    En esta seccìon encontraras<br>
+                    recetas sobre como ralizar<br>
+                    platos de pastas.
+                </p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBMwxTqorI9UL7xjD5MEbToxb1hI7johi8wYGe2YB2fVnWkPcd&usqp=CAU" alt="fuente de pasta con brocolis" class="img">
+                <button class="boton"><a href="pastas.html" class="enlace">Continuar</a></button>
+            </div>
+            <div class="bloque3">
+                <h2>Carnes</h2>
+                <p>
+                    Vamos a realizar una carne<br>
+                    asadas y al horno para deleitarse.
+                </p>
+                <img src="assets/image/carnes-1.jpg" alt="carne asada" class="img">
+                <button class="boton"><a href="carnes.html" class="enlace">Continuar</a></button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav class="menu1">
+            <ul>
+                <li><a href="index.html" target="_self"><h2>Inicio</h2></a></li>
+                <li><a href="masas.html" target="_self"><h2>Masas</h2></a></li>
+                <li><a href="pastas.html" target="_self"><h2>Pastas</h2></a></li>
+                <li><a href="carnes.html" target="_self"><h2>Carnes</h2></a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
