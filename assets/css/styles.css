@@ -15,6 +15,7 @@ body{
     background: #B76935;
 }
 .encabezado h1{
+    display: inline-block;
     color: #ffffff;
     padding-top: 30px;
     margin-left: 30px;
@@ -22,6 +23,11 @@ body{
     font-size: 2rem;
     text-align: left;
 }
+.encabezado img{
+    height: 80px;
+    width: 120px;
+    margin-left: 600px;
+    display: inline;
 }
 .menu ul{
     margin-left: 30%;
@@ -42,19 +48,21 @@ main{
 }
 .bloque{
     display: inline-block;
+    margin-top: 60px;
     margin-left: 60px;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     text-align: center;
+    height: 600px;
 }
 .img{
-    width: 100%;
+    width: 90%;
     height: 90%;
 }
 .bloque1{
     display: inline-block;
     width: 30%;
-    padding-top: 17px;
+
     padding-bottom: 20px;
     margin-right: 20px;
     background: #60D394;
@@ -79,7 +87,7 @@ main{
 .bloque3{
     display: inline-block;
     width: 30%;
-    padding-top: 24px;
+
     padding-bottom: 20px;
     margin-right: 20px;
     background: #FF9B85;
