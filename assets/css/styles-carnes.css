@@ -23,7 +23,7 @@ body{
     text-align: left;
 }
 .menu ul{
-    margin-left: 30%;
+    margin-left: 35%;
 }
 .menu li{
     display: inline-block;
@@ -37,8 +37,14 @@ body{
     text-decoration: none;
 }
 
-div{
+main{
     display: block;
+}
+.receta{
+    background: rgb(88, 59, 64);
+    width: 700px;
+    margin-left: 350px;
+    padding-top: 3px;
 }
 .subtitulo{
     font-family: 'Open Sans', sans-serif;
@@ -51,11 +57,12 @@ p{
     font-size: 1rem;
     font-weight: 15;
     text-align: center;
+    margin-left: 1.25%;
 }
 img{
-    margin-left: 35%;
-    width: 30%;
-    height: 30%;
+    margin-left: 15%;
+    width: 70%;
+    height: 70%;
 }
 h3{
     font-family: 'Open Sans', sans-serif;
@@ -67,12 +74,14 @@ li{
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     font-weight: 15;
-    margin-left: 35%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    text-decoration: none;
 }
 video{
-    margin-left: 30%;
-    width: 40%;
-    height: 40%;
+    margin-left: 10%;
+    width: 80%;
+    height: 80%;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -83,7 +92,19 @@ iframe{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
+.formulario{
+    border: 0;
+    display: block;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.formulario label{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 15;
+    color: #ffffff;
+}
 footer{
     padding-top: 1px;
     padding-bottom: 3px;
