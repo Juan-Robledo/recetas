@@ -62,7 +62,7 @@ main{
 .bloque1{
     display: inline-block;
     width: 30%;
-
+    padding-top: 14px;
     padding-bottom: 20px;
     margin-right: 20px;
     background: #60D394;
@@ -87,7 +87,7 @@ main{
 .bloque3{
     display: inline-block;
     width: 30%;
-
+    padding-top: 6px;
     padding-bottom: 20px;
     margin-right: 20px;
     background: #FF9B85;
