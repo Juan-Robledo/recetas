@@ -105,6 +105,13 @@ iframe{
     font-weight: 15;
     color: #ffffff;
 }
+.boton{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    background: #ffffff;
+    border: 0;
+}
 footer{
     padding-top: 1px;
     padding-bottom: 3px;
