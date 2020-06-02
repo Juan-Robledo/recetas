@@ -1,40 +1,6 @@
-html{
-    font-size: 16px;
-}
-/*font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif;*/
+
 body{
-    width: auto;
-    height: auto;
     background: #4D1720;
-    margin: 0;
-    margin-top: 0;
-}
-.encabezado{
-    padding-top: 5px;
-    background: #B76935;
-}
-.encabezado h1{
-    color: #ffffff;
-    padding-top: 30px;
-    margin-left: 30px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2rem;
-    text-align: left;
-}
-.menu ul{
-    margin-left: 35%;
-}
-.menu li{
-    display: inline-block;
-    margin-right: 20px;
-    margin-left: 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.75rem;
-}
-.menu li a{
-    color: #ffffff;
-    text-decoration: none;
 }
 
 main{
@@ -111,19 +77,4 @@ iframe{
     margin-top: 10px;
     background: #ffffff;
     border: 0;
-}
-footer{
-    padding-top: 1px;
-    padding-bottom: 3px;
-    background: #143642;
-}
-.menu1 li{
-    margin-left: 30px;
-    display: block;
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.60rem;
-}
-.menu1 li a{
-    color: #ffffff;
-    text-decoration: none;
 }
